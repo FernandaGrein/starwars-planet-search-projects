@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.formComponent {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  border: solid rgba(31, 14, 61, 0.678) 2px;
+  padding: 30px;
+  background-image: url('./depositphotos_65311427-stock-photo-universe-filled-with-stars.jpg');
+  align-self: stretch;
+}
+
+.formComponent label {
+  padding: 3px;
+}
+
+.formComponent button {
+  margin: 3px;
+  background-color: rgb(252, 252, 252);
+}
+
+.formComponent label input {
+ padding: 3px
+}
+
+.formComponent label select {
+  padding: 3px;
+}
+
+table{
+  background-color: rgba(31, 14, 61, 0.678);
+  color: antiquewhite;
+}
+
+table thead {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+table thead th {
+  border: 2px solid rgba(175, 106, 209, 0.747);
+  padding: 5px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+table tbody td {
+  border: 1px solid rgba(255, 192, 203, 0.705);
+  padding: 3px;
+  width: 30px;
+  text-align: center;
 }

@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import PlanetContex from '../contex/PlanteContex';
+import PlanetContex from '../contex/PlanetContex';
 
 function Table() {
   const { filteredPlanets } = useContext(PlanetContex);

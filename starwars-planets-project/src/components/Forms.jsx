@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import PlanetContex from '../contex/PlanteContex';
+import PlanetContex from '../contex/PlanetContex';
 import '../App.css';
 
 function Form() {
